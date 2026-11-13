@@ -12,7 +12,7 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl">
                 <Link
                     to="/app"
-                    className="bg-blue-600 hover:bg-blue-700 p-8 rounded-xl text-center transition"
+                    className="bg-purple-600 hover:bg-purple-700 p-8 rounded-xl text-center transition"
                 >
                     <h2 className="text-2xl font-bold mb-2">App</h2>
                     <p>App con React + Tailwind</p>
@@ -28,7 +28,7 @@ export default function Home() {
 
                 <Link
                     to="/grid"
-                    className="bg-green-600 hover:bg-green-700 p-8 rounded-xl text-center transition"
+                    className="bg-purple-600 hover:bg-purple-700 p-8 rounded-xl text-center transition"
                 >
                     <h2 className="text-2xl font-bold mb-2">Grid</h2>
                     <p>Diseños con Grid</p>
