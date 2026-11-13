@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Index() {
     return (
         <div className="min-h-screen bg-gray-950 text-white flex flex-col items-center justify-center p-6">
             <h1 className="text-4xl font-bold mb-3">Mi Proyecto React</h1>
@@ -17,7 +17,7 @@ export default function Home() {
                     <h2 className="text-2xl font-bold mb-2">App</h2>
                     <p>App con React + Tailwind</p>
                 </Link>
-                
+
                 <Link
                     to="/flex"
                     className="bg-purple-600 hover:bg-purple-700 p-8 rounded-xl text-center transition"

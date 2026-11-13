@@ -1,16 +1,19 @@
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+
+import { HashRouter, Routes, Route } from 'react-router-dom'
+
 import App from './App.tsx'
 import { Form } from './components/Form.tsx'
 import { Flex } from './components/Flex.tsx'
 import { Grid } from './components/Grid.tsx'
-import Index from './components/Index.tsx';
+import Index from './components/Index.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-        <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/app" element={<App />} />
@@ -18,7 +21,6 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/grid" element={<Grid />} />
         <Route path="/form" element={<Form />} />
       </Routes>
-    </BrowserRouter>
-
+    </HashRouter>
   </StrictMode>,
 )
