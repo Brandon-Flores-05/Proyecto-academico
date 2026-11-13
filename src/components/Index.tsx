@@ -32,6 +32,14 @@ export default function Home() {
                 >
                     <h2 className="text-2xl font-bold mb-2">Grid</h2>
                     <p>Diseños con Grid</p>
+
+                </Link>
+                <Link
+                    to="/form"
+                    className="bg-purple-600 hover:bg-purple-700 p-8 rounded-xl text-center transition"
+                >
+                    <h2 className="text-2xl font-bold mb-2">Form</h2>
+                    <p>Formulario</p>
                 </Link>
             </div>
         </div>
